@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 
-
 //Recursive Version
 long double Power_of_two(int  k)
 {
