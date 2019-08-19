@@ -3,20 +3,13 @@
 // Purpose: Iterative/Recursive Timed Driver Comparison
 // Date: 2/23/2018
 
-// Attached Excel Worksheet used upto 16,000 as exponent... I decreased to exponent max = 1000 for your quick testing
-// Also, since it writes data to excel, it does not output start & stop times on screen for speed and avoiding redundancy
-// since the iostream eats up a lot more time than the actual calculation does. 
-//
-// We observed that the iterative candidate is best as it linearly out performs the recursive candidate and does not
-// eat up the application stack such as recursion
-
 #include <iostream>
 #include <iomanip>
 #include <ctime>
 #include <fstream>
-#include <math.h> // used for taking an absolute value of time difference
+#include <math.h>
 
-#include "KthRecursive.cpp"
+#include "PowerOfTwoRecursive.cpp"
 #include "PowerOfTwoIterative.cpp"
 
 using namespace std;
